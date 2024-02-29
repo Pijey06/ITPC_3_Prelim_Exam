@@ -47,12 +47,21 @@
     </div>
     <div style="text-align: center;"> 
         <div style="margin-top: 1rem;">
-            <button> Create User!</button>
+            <a href="index.html">
+                <button id="buttonLogin">Register</button>
+                </a>
         </div>
         <div style="margin-top: 0.5rem;">
-            <button> Cancel</button>
+            <a href="index.html">
+                <button id="buttoneCancel">Cancel</button>
+                </a>
         </div>
     </div>
-    
 </body>
+<script>
+    let buttonLogin = document.querySelector("#buttonLogin")
+    buttonLogin.onclick = function () {
+        alert("Registration Successful");
+    } 
+</script>
 </html>
