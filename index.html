@@ -3,7 +3,6 @@
 <head>
     <title>Login</title>
     <style>
-
         #divContainer {
             text-align: center;
         }
@@ -23,14 +22,22 @@
         }
     </style>
 </head>
-
 <body>
     <div id="divContainer">
         <h1>login Comrades</h1>
         <div><input type="text" placeholder="username" class="redText"> </div>
         <div><input type="password" placeholder="password" class="redText"></div>
         <div><button id="buttonLogin">Login</button></div>
-        <div> <button id="=buttonRegister"> Register</button></div>
+        <a href="register.html">
+            <button>Register</button>
+            </a>
     </div>
 </body>
+<script>
+    console.log("hello world", 1+1);
+    let buttonLogin = document.querySelector("#buttonLogin")
+    buttonLogin.onclick = function () {
+        alert("Login successful");
+    } 
+</script>
 </html
