@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <title>Login</title>
-    </head>
+<head>
+    <title>Login</title>
+    <style>
 
-    <body>
-        <div style="text-align: center;">
-            <h1 style="font-size: larger;"> Welcome to my Website :)</h1>
-            <h2 style="font-size: medium;"> Log in Comrades</h2>
-            <div>
-                <input type="text" placeholder="Username">
-                 <input type="text" placeholder="Password">
-            </div>
-            <div style="margin-top: 1rem;">
-                <button>
-                    Login
-                </button>
-                <button>
-                    Register
-                </button>
-            <div>
-    </body>
+        #divContainer {
+            text-align: center;
+        }
+        .redText {
+            color: red;
+            background-color: #bebebe;
+            margin: 1rem;
+        }
+        .redText:hover {
+            color: blue;
+            background-color: lime;
+        }
+        div {
+            margin-bottom: 1rem;
+            
+            font-size: large;
+        }
+    </style>
+</head>
 
-    </html>
+<body>
+    <div id="divContainer">
+        <h1>login Comrades</h1>
+        <div><input type="text" placeholder="username" class="redText"> </div>
+        <div><input type="password" placeholder="password" class="redText"></div>
+        <div><button id="buttonLogin">Login</button></div>
+        <div> <button id="=buttonRegister"> Register</button></div>
+    </div>
+</body>
+</html
